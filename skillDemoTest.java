@@ -17,7 +17,7 @@ public class skillDemoTest {
     @Test
     public void testFileIndex0() throws IOException {
         List<String> input = new ArrayList<String>();
-        Path fileName = Path.of("C:\\Users\\Matt\\Documents\\CSE15L\\test-file.md");
+        Path fileName = Path.of("C:\\Users\\Matt\\Documents\\GitHub\\SkillDemo1\\test-file.md");
         input = Files.readAllLines(fileName);
         String[] array = input.toArray(new String[0]);
 
@@ -27,7 +27,7 @@ public class skillDemoTest {
     @Test
     public void testFileIndex1() throws IOException {
         List<String> input = new ArrayList<String>();
-        Path fileName = Path.of("C:\\Users\\Matt\\Documents\\CSE15L\\test-file.md");
+        Path fileName = Path.of("C:\\Users\\Matt\\Documents\\GitHub\\SkillDemo1\\test-file.md");
         input = Files.readAllLines(fileName);
         String[] array = input.toArray(new String[0]);
 
