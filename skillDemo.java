@@ -13,7 +13,7 @@ public class skillDemo {
      */
     public static ArrayList<String> printElements(String[] array, int idx) {
         ArrayList<String> toReturn = new ArrayList<>();
-        for (int i = 0; i < array.length; i++) {
+        for (int i = idx; i < array.length; i++) {
             toReturn.add(array[i]);
         }
         return toReturn;
